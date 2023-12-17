@@ -1,0 +1,136 @@
+form {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    max-width: 600px;
+    margin: 5px;
+    align-items: center;
+  }
+
+  
+  
+  span {
+    color: #f44336;
+    font-size: 14px;
+  }
+  
+  
+  label {
+    flex: 0 0 48%;
+    
+  }
+  
+.label {
+  margin-left: 1px;
+  margin-right: 25px;
+  font-size: 16px;
+  color: #555;
+}
+
+  
+  input,
+  textarea {
+    width: 100%;
+    padding: 8px;
+    box-sizing: border-box;
+    margin-top: 4px;
+  }
+
+
+.btn-cover {  
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-top: 20px;
+}
+  
+  button {
+    width: auto;
+    padding: 3px 5px;
+    box-sizing: border-box;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-size: 16px;
+    cursor: pointer;
+  }
+
+
+  
+  .submit {
+    background-color: #4caf50;
+    color: white;
+    border: none;
+   
+    margin-right: 5px;
+    
+    cursor: pointer;
+    border-radius: 25px;
+  }
+
+  
+  
+  button:not(.submit) {
+    background-color: #f44336;
+    color: white;
+    border: none;
+    border-radius: 85px;
+  }
+
+  
+
+.form{
+  height: fit-content;
+  margin-top: 50px;
+  font-weight: 300;
+  text-align: left;
+  margin-left: 10px;
+  margin-right: 10px;
+  border-style: solid;
+  border-radius: 20px;
+  border-color: #a52a2a;  
+  position: relative;
+  flex-direction: column;
+  
+  
+}
+
+.div-out {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-left: 10px;
+  padding-right: 10px;
+
+}
+
+
+.form2{
+  height: fit-content;
+  margin-top: 50px;
+  font-weight: 300;
+  text-align: left;
+  margin-left: 10px;
+  margin-right: 10px;
+  border-style: solid;
+  border-radius: 20px;
+  border-color: #a52a2a;  
+  position: relative;
+  
+}
+
+.form3{
+  height: fit-content;
+  margin-top: 50px;
+  font-weight: 300;
+  text-align: left;
+  margin-left: 10px;
+  margin-right: 10px;
+  border-style: solid;
+  border-radius: 20px;
+  border-color: #a52a2a;
+  position: relative;
+  
+}
+
+  

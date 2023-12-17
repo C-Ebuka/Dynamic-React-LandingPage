@@ -1,0 +1,257 @@
+#root {
+  max-width: auto;
+  margin: none;
+  padding: none;
+  text-align: center;
+}
+
+body {
+  font-family: 'Arial', sans-serif;
+  margin: none;
+  border: none;
+  padding: none;
+}
+
+
+nav {
+  margin-left: 6%;
+  padding-right: 3%;
+  padding-left: 3%;
+  position: absolute;
+  top: 0%;
+  width: 100%;
+  height: auto;
+  display: flex;
+  flex-direction: row;
+  background-color: #333;
+  color: white;
+  align-content: space-evenly;
+  align-content: stretch;
+  align-content:flex-end;
+}
+
+.card {
+display: flex; 
+height: 100vh; 
+background-color: rgb(27, 20, 10);
+margin: none;
+border: solid;
+border-color: rgb(226, 223, 223);
+width: auto;
+color: rgb(10, 10, 10);
+align-items: center;
+justify-content: center;
+}
+
+
+/* Add this style to your existing CSS file */
+
+.card1 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  height: 100%;
+  width: 75%;
+  margin: none;
+  position: relative;
+  background: #d4dfeb;
+  background-color: rgb(8, 230, 152);
+  background-size: cover;
+  background-position: center;
+}
+
+
+.subnav1 {
+  
+  padding: 10px;
+  border: 1px solid #ccc;
+  margin: 5px;
+  width: 16%;
+}
+
+.subnav2  {
+  
+  border: 1px solid #ccc;
+  margin: 5px;
+  width: 16%;
+  height: 40px; /* Set the height of your button */
+  cursor: pointer;
+}
+
+img {
+  height: 40px; /* Set the height of your button */
+  
+}
+
+
+
+
+.subnav3 { 
+  border: 1px solid #ccc;
+  margin: 5px;
+  width: 16%;
+  height: 40px; /* Set the height of your button */
+  cursor: pointer;
+}
+
+.subnav4 {
+  border: 1px solid #ccc;
+  margin: 5px;
+  width: 16%;
+  height: 40px; /* Set the height of your button */
+  cursor: pointer;
+}
+
+.subnav5 {  
+  border: 1px solid #ccc;
+  margin: 5px;
+  width: 16%;
+  height: 40px; /* Set the height of your button */
+  cursor: pointer;
+}
+
+
+
+/* Gradient for Light Mode */
+.light-mode .card1 {
+  background: linear-gradient(to bottom, rgba(173, 216, 230, 0.7), rgba(173, 216, 230, 0.3)), url("./assets/kc.jpeg");
+}
+
+/* Gradient for Dark Mode */
+.dark-mode .card1 {
+  background: linear-gradient(to bottom, rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.3)), url("./assets/kc.jpeg");
+}
+
+.toggle-button{
+  position: absolute;
+  top: 5%;
+  left: 30%;
+  align-self: center;
+  
+}
+
+
+
+.card2 {
+  display: flex;
+  flex-direction: column;
+  align-content: space-between; 
+  align-items: center; 
+  justify-content: center;
+  padding: 20px;
+  background-color: rgb(247, 240, 240);
+  height: 100%;
+  width: 25%;
+  margin: none;
+  color: #0056b3;
+  position: relative;
+  justify-content: flex-start;
+
+}
+
+
+
+
+
+
+img {
+  display: block;
+  max-width: 100%;
+  margin: auto;
+}
+
+/*validation style
+
+/* Add this styling to a CSS file (e.g., ValidationForm.css) and import it into your component */
+
+
+/* Add this styling to a CSS file (e.g., ContactForm.css) and import it into your component */
+
+.container {
+  width: 400px;
+  margin: auto;
+  padding-right: 10px;
+  padding-left: 10px;
+  padding-bottom: 50px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  height: auto;
+  position: relative;
+}
+
+h2 {
+  text-align: center;
+  color: #333;
+  
+}
+
+
+
+.input,
+.textarea {
+  padding: 10px;
+  margin-bottom: 15px;
+  margin-right: 5%;
+  width: 90%;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  box-sizing: border-box;
+  font-size: 14px;
+
+  
+}
+
+.textarea {
+  resize: vertical;
+}
+
+
+.date {
+  border-style: solid;
+  border-color: #a52a2a;
+  border-radius: 10pc;
+  margin-top: 15vh;
+  width: auto;
+  padding-left: 15px;
+  padding-right: 15px;
+  margin-left: 3px;
+  margin-right: 3px;
+  margin-bottom: 10px;
+}
+
+/* Add this style to your existing CSS file */
+
+
+/* Light mode styles */
+.light-mode {
+  background-color: #fff;
+  color: #000;
+}
+
+/* Dark mode styles */
+.dark-mode {
+  background-color: #333;
+  color: #fff;
+}
+
+.but {
+  margin-bottom: 5px;
+  margin-top: 5px;
+  padding: 10px 10px 10px 10px;
+  background-color: #007BFF;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  margin-right: 20%;
+  cursor: pointer;
+  font-size: 16px;
+  
+}
+
+.btn-cover {
+  display: flex;
+  flex-direction: row;
+}
